@@ -1,0 +1,49 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    
+}
+.all{
+    display: flex;
+    color: white;
+    justify-content: center; 
+}
+
+.Count{
+    font-weight: bold;
+    font-size : 6rem;
+    line-height: 2;
+    margin: 1px 50px;
+}
+
+.days{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+span{
+    font-size: 30px;
+    
+}
